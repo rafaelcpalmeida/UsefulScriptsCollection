@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [[ -z $1 && -z $2 ]]
+then
+        echo "ERROR! You must write the directory and the commit message!"
+	echo "Example:"
+	echo "commit . \"Updating some file\""
+else
+	echo "Commiting your changes..."
+        cd $1
+        git add . && git commit -m "$2" && git push
+	echo "Done commiting"
+fi
