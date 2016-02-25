@@ -10,7 +10,9 @@ else
         cd $1
 	if [[ ! -z $3 && $3 = "push" ]]
 	then
-        	git commit -a -m "$2" && git push	
+		printf "\n\nPushing your changes to server...\n\n"
+        	git commit -a -m "$2" && git push
+		printf "\n\nPushing your changes to server...\n\n"
 	else
         	git commit -a -m "$2"
 	fi
