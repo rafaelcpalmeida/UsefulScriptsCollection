@@ -8,6 +8,9 @@ This is just a small script written in Bash that helps you manage your commits a
 
 It's a quite simple script but allows me to save a few lines of commands, just that stupid. :smile:
 
+I've tested this in:
+- Mac OS X
+
 ### Instructions
 
 - Download the script to your computer
@@ -15,8 +18,7 @@ It's a quite simple script but allows me to save a few lines of commands, just t
 - To start using all you must do is type the following command:
     - commit . "Commit description here" push <- the . (dot) refers to the directory you want to commit
 - If you want to commit but you don't want to push your changes yet:
-    - commit . "Commit description here" <- the . (dot) refers to the directory you want to commit
-     
+    - commit . "Commit description here" <- the . (dot) refers to the directory you want to commit     
 
 # FAQ's
 ## Will there be more scripts?
