@@ -8,6 +8,11 @@ then
 else
 	echo "Commiting your changes..."
         cd $1
-        git add . && git commit -m "$2" && git push
+	if [[ -z $3 ]]
+	then
+        	git commit -a -m "$2" && git push	
+	else
+        	git commit -a -m "$2"
+	fi
 	echo "Done commiting"
 fi
