@@ -20,7 +20,7 @@ I've tested this in:
     - commit [dir] [message] push
 - If you want to commit but you don't want to push your changes yet:
     - commit [dir] [message]
-    - 
+
 ### Usage examples
 **commit ~/projects/newProject "Commit message for your new project" push**
 
