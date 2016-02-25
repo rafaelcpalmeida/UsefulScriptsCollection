@@ -13,9 +13,10 @@ else
         	git commit -a -m "$2"
 		printf "\n\nPushing your changes to server...\n\n"
 		git push
-		printf "\n\nPushing your changes to server...\n\n"
+		printf "\n\nChanges pushed...\n\n"
 	else
         	git commit -a -m "$2"
 	fi
-	printf "\n\nDone"
+	printf "\n\nCommited..."
+	printf "\n\nDone\n\nGoodbye."
 fi
