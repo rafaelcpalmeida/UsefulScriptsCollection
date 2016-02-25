@@ -2,7 +2,7 @@
 In this repository I'll share with you some small (or not) script that help me in my daily work routine and might help you too! :smile:
 
 # Available Scripts
-**Commit**
+## Commit
 
 This is just a small script written in Bash that helps you manage your commits and pushes to the Git server.
 
