@@ -10,15 +10,27 @@ It's a quite simple script but allows me to save a few lines of commands, just t
 
 I've tested this in:
 - Mac OS X
+- Linux Mint 
 
 ### Instructions
 
 - Download the script to your computer
 - Type "mv commit /usr/local/bin && chmod +x commit" (That way you don't need to modify you PATH variable :smile: )
 - To start using all you must do is type the following command:
-    - commit . "Commit description here" push <- the . (dot) refers to the directory you want to commit
+    - commit [dir] [message] push
 - If you want to commit but you don't want to push your changes yet:
-    - commit . "Commit description here" <- the . (dot) refers to the directory you want to commit     
+    - commit [dir] [message]
+    - 
+### Usage examples
+**commit ~/projects/newProject "Commit message for your new project" push**
+
+Commits all the changed files in ~/projects/newProject with the message "Commit message for your new project" and then pushes the changes to the server
+
+**commit ~/projects/otherProject "I'm commiting... but not pushing"**
+
+Commits all the changed files in ~/projects/otherProject with the message "I'm commiting... but not pushing" but it doesn't push any changes yet
+
+
 
 # FAQ's
 ## Will there be more scripts?
