@@ -6,7 +6,7 @@ then
 	echo "Example:"
 	echo "commit . \"Updating some file\""
 else
-	echo "Commiting your changes..."
+	printf "Commiting your changes...\n\n"
         cd $1
 	if [[ ! -z $3 && $3 = "push" ]]
 	then
@@ -14,5 +14,5 @@ else
 	else
         	git commit -a -m "$2"
 	fi
-	echo "Done commiting"
+	printf "\n\nDone"
 fi
