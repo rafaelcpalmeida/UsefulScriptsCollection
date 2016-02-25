@@ -11,12 +11,13 @@ else
 	if [[ ! -z $3 && $3 = "push" ]]
 	then
         	git commit -a -m "$2"
+		printf "\n\nCommited..."
 		printf "\n\nPushing your changes to server...\n\n"
 		git push
 		printf "\n\nChanges pushed...\n\n"
 	else
         	git commit -a -m "$2"
+		printf "\n\nCommited..."
 	fi
-	printf "\n\nCommited..."
-	printf "\n\nDone\n\nGoodbye."
+	printf "\n\nDone\n\nGoodbye.\n\n"
 fi
