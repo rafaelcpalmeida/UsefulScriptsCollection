@@ -8,7 +8,7 @@ then
 else
 	echo "Commiting your changes..."
         cd $1
-	if [[ -z $3 ]]
+	if [[ ! -z $3 && $3 = "push" ]]
 	then
         	git commit -a -m "$2" && git push	
 	else
