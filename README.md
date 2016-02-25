@@ -19,6 +19,9 @@ It's a quite simple script but allows me to save a few lines of commands, just t
      
 
 # FAQ's
+## Will there be more scripts?
+Yes, I'm counting on adding more scripts as I write them to improve my work routines :relaxed:
+
 ## Mind if I use this code and make it better?
 Not at all. Suit yourself!
 
